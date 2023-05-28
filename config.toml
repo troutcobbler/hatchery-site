@@ -1,0 +1,45 @@
+title = ""
+baseURL = "https://gohugo-theme-ananke.pages.dev"
+languageCode = "en-us"
+theme = "ananke"
+resourceDir = "../resources"
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3
+googleAnalytics = ""
+enableRobotsTXT = true
+
+copyright = "hatchery Linux"
+
+weight = 1
+
+[menu]
+[[menu.main]]
+  identifier = 'build'
+  name = 'Build'
+  url = '/build'
+[[menu.main]]
+  identifier = 'download'
+  name = 'Download'
+  url = '/download'
+[[menu.main]]
+  identifier = 'home'
+  name = 'Home'
+  url = '/'
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  text_color = ""
+  author = ""
+  favicon = ""
+  site_logo = ""
+  description = ""
+  background_color_class = "bg-black"
+  recent_posts_number = 3
+  custom_css = ["custom.css"]
+  body_classes = "avenir bg-near-black"
