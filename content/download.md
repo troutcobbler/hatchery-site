@@ -7,6 +7,7 @@ type: page
 
 ---
 
+```
 ## Getting Started with hatchery Linux
 
 wget -c https://iso.hatcherylinux.org/pecos-111924-amd64.hybrid.iso
