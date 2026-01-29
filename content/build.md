@@ -17,7 +17,9 @@ git clone https://github.com/troutcobbler/hatchery-lb-config
 
 cd hatchery-lb-config
 
-sudo lb config
+git checkout gila
+
+lb config
 
 sudo lb build
 
