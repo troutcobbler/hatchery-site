@@ -10,14 +10,14 @@ type: page
 ```
 ## Getting Started with hatchery Linux
 
-wget -c https://iso.hatcherylinux.org/gila-080526-amd64.hybrid.iso
+wget -c https://iso.hatcherylinux.org/gila-080626-amd64.hybrid.iso
 
 dd the iso or etcher it ..
 
 
 ## Verifying the ISO
 
-wget -c https://iso.hatcherylinux.org/gila-080526-amd64.hybrid.iso.sha512sum.asc
+wget -c https://iso.hatcherylinux.org/gila-080626-amd64.hybrid.iso.sha512sum.asc
 
 gpg --keyserver keyserver.ubuntu.com --recv-keys 3f057386f99e3151
 
